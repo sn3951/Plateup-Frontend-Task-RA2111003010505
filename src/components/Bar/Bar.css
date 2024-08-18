@@ -1,0 +1,183 @@
+
+.container1 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 72%;
+    border-radius: 14px;
+    margin-left: 210px;
+    margin-top: 80px;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.12);
+  }
+  
+  .filter-bar1 {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    height: 92px;
+    width: 1080px;
+    background-color: #f9fafb;
+    padding-right: 16px;
+    padding-left: 16px;
+    border-radius: 14px; 
+    box-shadow: none;
+  }
+  
+  
+  .input-group {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 252px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    height: 60px;
+    padding-right: 16px;
+    padding-left: 16px;
+    background: #f9fafb;
+    border: 1px solid #e7e7e7;
+    border-radius: 5px;
+  }
+  
+
+  .icon1 {
+    display: flex;
+    flex: 0 0 auto;
+    width: 24px;
+    height: 24px;
+    color: #8b8e9c;
+  }
+  
+
+  .location-text {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    margin-left: 9px;
+    font: 400 16px Inter, sans-serif;
+    color: #8b8e9c;
+  }
+  
+
+  .insurance-container {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 230px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    height: 60px;
+    padding-right: 16px;
+    padding-left: 16px;
+    background: #f9fafb;
+    border: 1px solid #e7e7e7;
+    border-radius: 5px;
+  }
+  
+  
+  .insurance-label {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    margin-left: 15px;
+    font: 400 16px Inter, sans-serif;
+    color: #8b8e9c;
+  }
+  
+
+  .button {
+    box-sizing: border-box;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 9px;
+    align-items: center;
+    justify-content: center;
+    width: 157px;
+    min-width: 157px;
+    height: 60px;
+    font: 500 16px Inter, sans-serif;
+    color: white;
+    cursor: pointer;
+    background: linear-gradient(271.76deg, rgba(70, 131, 208, 1) 17.7%, rgba(124, 208, 162, 1) 145.75%);
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
+  }
+
+  .icon2 {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    color: #ffffff;
+  }
+
+@media (max-width: 767px) {
+
+  .container1 {
+    width: 100%; 
+    margin-left: 0; 
+    margin-top: 20px; 
+    padding: 10px; 
+    box-shadow: none; 
+  }
+  
+  
+  .filter-bar1 {
+    width: 100%; 
+    flex-direction: column; 
+    height: auto; 
+    padding: 10px; 
+    box-shadow: none; 
+  }
+  
+ 
+  .input-group {
+    width: 100%; 
+    margin-bottom: 10px; 
+  }
+  
+  
+  .icon1 {
+    width: 20px; 
+    height: 20px; 
+  }
+  
+  
+  .location-text {
+    font: 400 14px Inter, sans-serif; 
+    margin-left: 5px; 
+  }
+  
+  
+  .insurance-container {
+    width: 100%; 
+    margin-bottom: 10px; 
+  }
+  
+  
+  .insurance-label {
+    font: 400 14px Inter, sans-serif; 
+    margin-left: 10px; 
+  }
+  
+  
+  .button {
+    width: 100%; 
+    height: 50px; 
+    font: 500 14px Inter, sans-serif; 
+    border-radius: 6px; 
+    box-shadow: none;
+  }
+  
+  
+  .icon2 {
+    width: 18px; 
+    height: 18px; 
+  }
+}
