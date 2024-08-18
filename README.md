@@ -1,3 +1,9 @@
+Screenshot 1:- 
+![Screenshot 2024-08-19 011912](https://github.com/user-attachments/assets/a05a11b5-fe55-47f5-a76a-3416d3a80b2d)
+
+Screenshot 2:-
+![Screenshot 2024-08-19 012018](https://github.com/user-attachments/assets/659a0d21-cafe-4361-85c6-92a07279e6d8)
+
 ---
 
 # PlateUp Frontend Task
