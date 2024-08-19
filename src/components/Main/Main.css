@@ -60,11 +60,11 @@
 }
 
 .column-1 .scroll-content {
-  animation: scrollDown 20s linear infinite;
+  animation: scrollUp 20s linear infinite;
 }
 
 .column-2 .scroll-content {
-  animation: scrollUp 20s linear infinite;
+  animation: scrollDown 20s linear infinite;
 }
 
 .card-image {
